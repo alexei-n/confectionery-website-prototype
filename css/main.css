@@ -80,7 +80,7 @@ footer {
   text-align: center;
   background-color: #871218;
   padding: .5em;
-  margin: 2em 0;
+  margin: 3em 0;
   color: #fdff93;
 }
 
@@ -140,6 +140,9 @@ figure {
     height: 400px;
   }
 
+  .bigimage {
+    margin: 1em 0;
+  }
 
 }
 
@@ -183,13 +186,14 @@ figure {
 
   .link-card {
     width: 25%;
-    height: 500px;
+    height: 550px;
   }
 
   .bigimage {
     max-width: 50%;
     float: left;
-    padding: .5em 1em 1em;
+    margin: 0 .25em .5em;
+    }
   }
 }
 
@@ -201,14 +205,14 @@ figure {
   }
   .link-card {
     max-width: 20%;
-    height: 500px;
+    height: 550px;
   }
 }
 
 /* Floating portrait in About page */
 
 .portrait {
-  float: right;
+  float: left;
   width: 200px;
   margin: -1em 0 .5em;
 }
@@ -258,5 +262,10 @@ figure {
 }
 
 .bigimage {
-  padding: .5em 1em;
+  padding: 0 .75em 1em;
+}
+
+.about {
+  padding: 1em;
+  max-width: 60em;
 }

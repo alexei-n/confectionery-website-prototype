@@ -285,7 +285,7 @@ figure {
   position: relative;
 }
 
- /* This is here solely to use the absolute position value needed for the assignment. It sits at the bottom of the page and enlarges with the window.*/
+/* This is here solely to use the absolute position value needed for the assignment. It sits at the bottom of the page and enlarges with the window. */
 
 .absohex {
   position: absolute;

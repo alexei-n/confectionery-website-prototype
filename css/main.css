@@ -15,7 +15,7 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -156,7 +156,7 @@ figure {
   }
 }
 
-  /* Floating portrait in About page*/
+/* Floating portrait in About page */
 
 .portrait {
   float: right;
@@ -164,7 +164,7 @@ figure {
   margin: -1em 0 .5em;
 }
 
-  /* Link cards for Shop page*/
+/* Link cards for Shop page */
 
 .link-card h2 {
   font-family: Dosis, sans-serif;

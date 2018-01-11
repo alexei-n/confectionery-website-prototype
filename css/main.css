@@ -70,7 +70,7 @@ h1 {
 }
 
 main h2 {
-  font-family: "Baloo Chettan", cursive;
+  font-family: "Baloo Chettan", sans-serif;
   color: #b20953;
   text-align: center;
   font-size: 1.875rem;
@@ -81,8 +81,9 @@ footer {
   text-align: center;
   background-color: #871218;
   padding: .5em;
-  margin: 4em 0;
+  margin: 2em 0;
   color: #fdff93;
+
 
 }
 
@@ -153,15 +154,83 @@ figure {
 
 }
 
-/* Floating shape in header*/
-
-.hex {
-  float: left;
-  width: 100px;
-}
+/* Floating portrait in About page*/
 
 .portrait {
   float: right;
   width: 200px;
   margin: -1em 0 .5em;
+}
+
+/* Link cards for Shop page*/
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin: 1rem 0 0;
+}
+
+.link-card {
+  color: #512200;
+  background-color: #dcd4cd;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+  border: 3px solid #9a816d;
+}
+
+.link-card:hover {
+  background-color: #EA775E;
+}
+
+.btn-small {
+  font-size: .875rem;
+  margin: 0 auto 1.5rem;
+  float: left;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.link-card {
+  display: inline-block;
+  max-width: 20%;
+  height: 500px;
+
+}
+
+.card1 {
+  background-color: #F1AFA1;
+  float: left;
+}
+
+.card2 {
+  background-color: #F1AFA1;
+  float: left;
+}
+
+.card3 {
+  background-color: #F1AFA1;
+  float: right;
+}
+
+.card4 {
+  background-color: #F1AFA1;
+  float: right;
+}
+
+.card5 {
+  background-color: #F1AFA1;
+  float: right;
+}
+
+.cards {
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
 }

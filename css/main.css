@@ -97,6 +97,35 @@ figure {
   background-color: #680c0c;
 }
 
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 1rem 0 0;
+}
+
+.link-card p {
+  font-size: .75rem;
+}
+
+.link-card {
+  color: #512200;
+  background-color: #dcd4cd;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  display: inline-block;
+  border: 3px solid #9a816d;
+  max-width: 20%;
+  height: 500px;
+  text-align: center;
+}
+
+.link-card:hover {
+  background-color: #ea775e;
+}
+
 /* Responsiveness */
 
 @media only screen and (min-width: 25em) {
@@ -105,6 +134,13 @@ figure {
     display: inline-block;
     text-align: center;
   }
+
+  .link-card {
+    max-width: 50%;
+    height: 400px;
+  }
+
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -112,6 +148,11 @@ figure {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .link-card {
+    max-width: 33%;
+    height: 450px;
   }
 
 }
@@ -140,12 +181,16 @@ figure {
     margin-right: 1.5rem;
   }
 
+  .link-card {
+    width: 25%;
+    height: 500px;
+  }
+
   .bigimage {
     max-width: 50%;
     float: left;
     padding: .5em 1em 1em;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -153,6 +198,10 @@ figure {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+  .link-card {
+    max-width: 20%;
+    height: 500px;
   }
 }
 
@@ -165,34 +214,6 @@ figure {
 }
 
 /* Link cards for Shop page */
-
-.link-card h2 {
-  font-family: Dosis, sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin: 1rem 0 0;
-}
-
-.link-card p {
-  font-size: .75rem;
-}
-
-.link-card {
-  color: #512200;
-  background-color: #dcd4cd;
-  padding: .4em .75em .5em;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 1rem;
-  display: inline-block;
-  border: 3px solid #9a816d;
-  max-width: 20%;
-  height: 500px;
-}
-
-.link-card:hover {
-  background-color: #ea775e;
-}
 
 .btn-small {
   font-size: .875rem;
@@ -217,17 +238,17 @@ figure {
 
 .card3 {
   background-color: #f1afa1;
-  float: right;
+  float: left;
 }
 
 .card4 {
   background-color: #f1afa1;
-  float: right;
+  float: left;
 }
 
 .card5 {
   background-color: #f1afa1;
-  float: right;
+  float: left;
 }
 
 .cards {

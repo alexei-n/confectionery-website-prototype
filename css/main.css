@@ -202,6 +202,7 @@ figure {
     font-size: 130%;
     line-height: 1.5;
   }
+
   .link-card {
     max-width: 20%;
     height: 550px;
@@ -271,7 +272,7 @@ figure {
 
 .candy {
   width: 100%;
-  padding: 1em 0;
+  padding: .5em 1em;
 }
 
 .gallery .candy {
@@ -284,7 +285,10 @@ figure {
   position: relative;
 }
 
-.candy .absohex {
+/* This is here solely to use the absolute position value needed for the assignment. It sits at the bottom of the page and enlarges with the window.*/
+
+.absohex {
   position: absolute;
-  top: 30px;
+  bottom: 10px;
+  width: 2em;
 }

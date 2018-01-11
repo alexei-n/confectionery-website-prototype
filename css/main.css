@@ -70,7 +70,7 @@ h1 {
 
 main h2 {
   font-family: "Baloo Chettan", sans-serif;
-  color: #b20953;
+  color: #871218;
   text-align: center;
   font-size: 1.875rem;
   margin: .5em 0 .75em;
@@ -271,9 +271,16 @@ figure {
 }
 
 .candy {
-  max-width: 25%;
+  width: 100%;
+  padding: 1em 0;
 }
 
-.gallery {
-  display: inline-block;
+.gallery .candy {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.capt {
+  font-size: .5em;
+  position: relative;
 }

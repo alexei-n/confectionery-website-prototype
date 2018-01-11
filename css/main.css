@@ -193,7 +193,6 @@ figure {
     max-width: 50%;
     float: left;
     margin: 0 .25em .5em;
-    }
   }
 }
 
@@ -283,4 +282,9 @@ figure {
 .capt {
   font-size: .5em;
   position: relative;
+}
+
+.candy .absohex {
+  position: absolute;
+  top: 30px;
 }

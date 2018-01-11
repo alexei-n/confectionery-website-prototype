@@ -19,7 +19,6 @@ html {
   box-sizing: inherit;
 }
 
-
 .nav {
   margin: 0;
   list-style-type: none;
@@ -48,7 +47,7 @@ p {
 }
 
 h1 {
-  font-family: "Comfortaa", cursive;
+  font-family: Comfortaa, cursive;
   color: #fdff93;
   margin: 0;
   text-align: center;
@@ -83,8 +82,6 @@ footer {
   padding: .5em;
   margin: 2em 0;
   color: #fdff93;
-
-
 }
 
 img {
@@ -159,7 +156,7 @@ figure {
   }
 }
 
-/* Floating portrait in About page*/
+  /* Floating portrait in About page*/
 
 .portrait {
   float: right;
@@ -167,7 +164,7 @@ figure {
   margin: -1em 0 .5em;
 }
 
-/* Link cards for Shop page*/
+  /* Link cards for Shop page*/
 
 .link-card h2 {
   font-family: Dosis, sans-serif;
@@ -185,10 +182,12 @@ figure {
   font-size: 1rem;
   display: inline-block;
   border: 3px solid #9a816d;
+  max-width: 20%;
+  height: 500px;
 }
 
 .link-card:hover {
-  background-color: #EA775E;
+  background-color: #ea775e;
 }
 
 .btn-small {
@@ -202,35 +201,28 @@ figure {
   border-color: #000;
 }
 
-.link-card {
-  display: inline-block;
-  max-width: 20%;
-  height: 500px;
-
-}
-
 .card1 {
-  background-color: #F1AFA1;
+  background-color: #f1afa1;
   float: left;
 }
 
 .card2 {
-  background-color: #F1AFA1;
+  background-color: #f1afa1;
   float: left;
 }
 
 .card3 {
-  background-color: #F1AFA1;
+  background-color: #f1afa1;
   float: right;
 }
 
 .card4 {
-  background-color: #F1AFA1;
+  background-color: #f1afa1;
   float: right;
 }
 
 .card5 {
-  background-color: #F1AFA1;
+  background-color: #f1afa1;
   float: right;
 }
 
